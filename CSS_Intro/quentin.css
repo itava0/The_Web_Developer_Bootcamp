@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
