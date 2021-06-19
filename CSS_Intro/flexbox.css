@@ -8,4 +8,12 @@ h1 {
   height: 500px;
   margin: 0 auto;
   border: 5px solid #003049;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#container div {
+  width: 100px;
+  height: 100px;
 }
