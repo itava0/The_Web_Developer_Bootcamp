@@ -17,3 +17,21 @@ function isEven(num) {
   }
 }
 isEven(num);
+
+//***** Logical Operators *****
+
+//Logical AND
+const password = "dsjbsjbjsbj12";
+if(password.length >= 6 && password.indexOf(' ') === -1) {
+  console.log("VALID PASSWORD");
+} else {
+  console.log("INVALID PASSWORD");
+}
+
+//Logical OR
+const age = 90;
+if(age < 5 || age > 65) {
+  console.log("FREE");
+} else if(age < 10) {
+  console.log("$10");
+}
