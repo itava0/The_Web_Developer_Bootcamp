@@ -25,3 +25,9 @@ console.log(colors);
 //Removed the fist color from array
 colors.unshift("pink");
 console.log(colors);
+
+//Concat Method
+let cats = ['blue', 'kitty'];
+let dogs = ['rusty', 'wyatt'];
+
+console.log(cats.concat(dogs));
