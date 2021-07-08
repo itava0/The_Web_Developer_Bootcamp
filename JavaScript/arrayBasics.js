@@ -31,3 +31,6 @@ let cats = ['blue', 'kitty'];
 let dogs = ['rusty', 'wyatt'];
 
 console.log(cats.concat(dogs));
+
+//Imcludes Method
+console.log(`Those cat's array has kitty ${cats.includes('kitty')}`);
