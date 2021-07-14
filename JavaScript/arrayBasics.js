@@ -13,7 +13,6 @@ colors.push("blue");
 colors.push("white");
 console.log(colors);
 
-
 //Removed the last color from array
 colors.pop();
 console.log(colors);
@@ -27,10 +26,14 @@ colors.unshift("pink");
 console.log(colors);
 
 //Concat Method
-let cats = ['blue', 'kitty'];
-let dogs = ['rusty', 'wyatt'];
+let cats = ["blue", "kitty"];
+let dogs = ["rusty", "wyatt"];
 
 console.log(cats.concat(dogs));
 
 //Imcludes Method
-console.log(`Those cat's array has kitty ${cats.includes('kitty')}`);
+console.log(`Those cat's array has kitty ${cats.includes("kitty")}`);
+
+const myEggs = ["brown", "white"];
+myEggs.splice(1, 0, "eggWhites");
+console.log(myEggs);
