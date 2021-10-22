@@ -37,3 +37,11 @@ console.log(`Those cat's array has kitty ${cats.includes("kitty")}`);
 const myEggs = ["brown", "white"];
 myEggs.splice(1, 0, "eggWhites");
 console.log(myEggs);
+
+
+//Multi-Dimensional Arrays
+const MyColors = [
+  ["red", "orange", "yellow"],
+  ["blue", "green", "white"],
+  ["purple", "golden rod", "olive"]
+]
