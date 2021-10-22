@@ -31,7 +31,7 @@ let dogs = ["rusty", "wyatt"];
 
 console.log(cats.concat(dogs));
 
-//Imcludes Method
+//Includes Method
 console.log(`Those cat's array has kitty ${cats.includes("kitty")}`);
 
 const myEggs = ["brown", "white"];
@@ -44,4 +44,16 @@ const MyColors = [
   ["red", "orange", "yellow"],
   ["blue", "green", "white"],
   ["purple", "golden rod", "olive"]
-]
+];
+
+const airplaneSeats = [
+  ['Ruth', 'Anthony', 'Stevie'],
+  ['Amelia', 'Pedro', 'Maya'],
+  ['Xavier', 'Ananya', 'Luis'],
+  ['Luke', null, 'Deniz'],
+  ['Rin', 'Sakura', 'Francisco']
+];
+
+airplaneSeats[3][1] = "Hugo";
+
+console.log(airplaneSeats);
