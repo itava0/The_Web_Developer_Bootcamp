@@ -22,3 +22,10 @@ const restaurant = {
 let fullAddress = `${restaurant['address']}, ${restaurant['city']}, ${restaurant['state']}, ${restaurant['zipcode']} `;
 
 console.log(fullAddress);
+
+const midterms = {
+  carlos: 90,
+  thomas: 60
+}
+
+midterms.carlos = 60;
