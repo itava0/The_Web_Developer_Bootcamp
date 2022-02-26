@@ -57,3 +57,19 @@ const airplaneSeats = [
 airplaneSeats[3][1] = "Hugo";
 
 console.log(airplaneSeats);
+
+// Nesting array and object
+
+const data = {
+  kind:"Listing",
+    data: {
+      dist:25,
+      children: [
+        "Carlos",
+        "Jeff",
+        "Thomas"
+      ]
+    }
+  };
+
+console.log(data['data']['children']);
