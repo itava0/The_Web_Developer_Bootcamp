@@ -35,3 +35,29 @@ for(let i= 0; i < people.length; i++) {
      console.log(team[j]);
    }
  }
+
+ // The Lovely For Of Loop
+ for( let row of seatingChart) {
+   for(let student of row) {
+     console.log(student);
+   }
+ }
+
+ // Iterating Over Objects
+ const testScore = {
+   keenan: 80,
+   damon: 67,
+   kim: 89,
+   shawn: 91,
+   marlom: 72,
+   dwayne: 77,
+   nadia: 83,
+   elvira: 97
+ }
+ 
+ let total = 0;
+ for( let score of Object.values(testScore)) {
+   total += score
+ }
+
+ console.log(total);
