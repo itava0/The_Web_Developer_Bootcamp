@@ -20,3 +20,18 @@ const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THI
 for(let i= 0; i < people.length; i++) {
     console.log(people[i].toUpperCase());
 }
+
+// Nested Loops
+ const seatingChart = [
+    ['Kristen', 'Erick', 'Nathan'],
+    ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+    ['Yuma', 'Sakura', 'Jack', 'Gisel']
+ ]
+
+ for (let i = 0; i < seatingChart.length; i++) {
+   const team = seatingChart[i];
+    console.log(`Team #${i + 1}`)
+   for (let j = 0; j < team.length; j++) {
+     console.log(team[j]);
+   }
+ }
