@@ -76,7 +76,7 @@ function returnDay(day){
  return daysWeek[day - 1];
 }
 
-console.log(returnDay(8));
+console.log(returnDay(6));
 
 //Higher Order Functions
 function callTwice(func) {
@@ -92,3 +92,14 @@ function rollDice() {
 
 //calling the higher function
 callTwice(rollDice);
+
+//Returning Functions
+function makeBetweenFunc(min,max) {
+  return function(num) {
+    return num >= min && num <= max;
+  }
+}
+
+const isElderToDrink = makeBetweenFunc(21, 120);
+
+console.log(isElderToDrink(19));
