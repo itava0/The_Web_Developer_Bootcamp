@@ -1,14 +1,14 @@
 // Writing Your Own Functions
 
 // Simple Square Function in Javascript
-function square(x) {
-  var ans = x * x;
-  return ans;
-}
+// function square(x) {
+//   var ans = x * x;
+//   return ans;
+// }
 
-var y = square(4);
+// var y = square(4);
 
-console.log(y);
+// console.log(y);
 
 // Simple Substraction Function in Javascript
 function sub(a, b) {
@@ -103,3 +103,32 @@ function makeBetweenFunc(min,max) {
 const isElderToDrink = makeBetweenFunc(21, 120);
 
 console.log(isElderToDrink(19));
+
+//Methods Exercise
+
+const square = {
+  area(num) {
+      return num * num;
+  },
+  perimeter(num) {
+      return num * 4;
+  }
+}
+
+console.log(square.perimeter(30));
+
+// "This" IN METHODS
+
+const hen = {
+  name: 'Helen',
+  eggCount: 0,
+  layAnEgg() {
+      this.eggCount++;
+      return "EGG";
+  }
+}
+
+console.log(hen.name);
+console.log(hen.eggCount);
+console.log(hen.layAnEgg());
+console.log(hen.eggCount);
