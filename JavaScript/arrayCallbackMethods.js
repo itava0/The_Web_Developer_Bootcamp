@@ -24,3 +24,14 @@ const firstNames = fullNames.map((names) => {
 })
 
 console.log(firstNames);
+
+//Filter Exercise 
+const usernames = ['mark', 'staveysmon2361', 'carrier98', 'moanaf1']
+
+function validUserNames(usernames) {
+  return usernames.filter((str) => {
+       return str.length < 10;
+   })
+}
+
+console.log(`Valid usernames: ${validUserNames(usernames)}`);
