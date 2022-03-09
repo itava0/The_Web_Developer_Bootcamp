@@ -12,3 +12,13 @@ const sum = function (...nums) {
 }
 
 console.log(sum(3, 5, 9));
+
+//Destructuring 
+//Allow to make a copy of single values inside an array
+
+const scores = [5236,2521,2581,2115,2545,2511];
+
+//Old way 
+const highScore = scores[0];
+//Destructuring
+const [highScores] = scores;
