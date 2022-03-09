@@ -45,3 +45,10 @@ function allEvens(numbers) {
 }
 
 console.log(allEvens([2,4,6,8]));
+
+//Reduce Method
+const prices = [9.99, 1.50, 19.99, 39.99, 30.50];
+//loops over the array and keeps track of the count.
+ const total = prices.reduce((total, price) => {
+          return total + price;
+ })
