@@ -35,3 +35,13 @@ function validUserNames(usernames) {
 }
 
 console.log(`Valid usernames: ${validUserNames(usernames)}`);
+
+//Checking if all the number inside the array are even!!
+function allEvens(numbers) {
+  //I'm checking if all the number inside the arry match condition
+  return numbers.every((num) => {
+    return num % 2 === 0;
+  })
+}
+
+console.log(allEvens([2,4,6,8]));
