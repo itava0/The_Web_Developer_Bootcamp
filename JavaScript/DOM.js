@@ -12,3 +12,5 @@ const firstImage = document.getElementsByClassName("first_img");
 const doneTodos = document.querySelectorAll(".done");
 //Select the checkbox element by its id
 const checkbox = document.querySelector("#scales");
+//Select the span element and changed the text
+document.querySelector("span").innerText = "Disgusting"
