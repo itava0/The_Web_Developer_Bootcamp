@@ -14,3 +14,6 @@ const doneTodos = document.querySelectorAll(".done");
 const checkbox = document.querySelector("#scales");
 //Select the span element and changed the text
 document.querySelector("span").innerText = "Disgusting"
+//Changing styles with JS
+const p = document.querySelector('p');
+p.style.fontSize = '2em';
