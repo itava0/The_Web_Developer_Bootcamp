@@ -24,3 +24,9 @@ container.style.textAlign = 'center';
 const img = document.querySelector('img');
 img.style.width = '150px';
 img.style.borderRadius = '50%';
+
+//Adding and Removing a Class
+const list = document.querySelectorAll('li');
+for(let i = 0; i < list.length; i++) {
+   list[i].classList.toggle('highlight');
+}
