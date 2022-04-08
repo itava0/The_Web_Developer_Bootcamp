@@ -30,3 +30,7 @@ const list = document.querySelectorAll('li');
 for(let i = 0; i < list.length; i++) {
    list[i].classList.toggle('highlight');
 }
+
+btn.onclick = function() {
+  console.log('you have clicked the button');
+}
