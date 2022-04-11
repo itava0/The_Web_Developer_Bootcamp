@@ -34,3 +34,4 @@ for(let i = 0; i < list.length; i++) {
 btn.onclick = function() {
   console.log('you have clicked the button');
 }
+ img.addEventListener
