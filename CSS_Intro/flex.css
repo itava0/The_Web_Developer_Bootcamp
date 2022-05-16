@@ -17,3 +17,8 @@ img {
   height: 300px;
   margin: 10px;
 }
+
+img:hover {
+  transition: 5ms ease-in-out;
+  transform: scale(1.2);
+}
